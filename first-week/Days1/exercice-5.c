@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sting.h>
+#include <string.h>
 
 int main()
 {
@@ -12,5 +12,5 @@ int main()
 
     length = strlen(N);
 
-    printf("la nombre de nombre est = %d", length);
+    printf("le nombre de chiffres est  %d", length);
 }
