@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int man()
+int main()
 {
      int N, i;
      printf("entrer un nombre : ");
@@ -8,6 +8,7 @@ int man()
      i = N;
      while (i < N + 10)
      {
-          printf("%d", N);
+          printf("%d ", i );
+          i++;
      }
 }
