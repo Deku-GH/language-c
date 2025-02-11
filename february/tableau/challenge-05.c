@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*تمرين لاستخراج لإعداد غير متكررة.*/
 int main()
 {
     int T[8], count;

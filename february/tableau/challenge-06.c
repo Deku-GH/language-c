@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* التمرين. الاستخراج، إعداد المتكررة.*/
 int main()
 {
     int T[8], count;
@@ -28,7 +28,7 @@ int main()
                 }
         }
     }
-    printf("le nombre non répétés \n ");
+    printf("le nombre non repetes \n ");
      for (int i = 0; i < 8; i++)
      {
         if (fp[i]==2)

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*تمارين مسح موضع مع وإعادة ترتيب المصفوفة.*/
 int main()
 {
 
@@ -31,5 +31,5 @@ int main()
         }
     }
     else
-        printf("entre ;a position enter 1 et %d", taille);
+        printf("entre laa position enter 1 et %d", taille);
 }
