@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-void signe(int A, int B)
+int A, B;
+void signe()
 {
     if (A >= 0 && B >= 0)
     {
@@ -10,7 +10,7 @@ void signe(int A, int B)
         printf("les valeures ne sont pas meme signe \n");
 }
 
-int minimum(int A, int B)
+int minimum()
 {
     int min;
     min = 0;
@@ -25,7 +25,7 @@ int minimum(int A, int B)
 
     return (min);
 }
-int maximum(int A, int B)
+int maximum()
 {
     int max;
     max = 0;
@@ -43,7 +43,7 @@ int maximum(int A, int B)
 
 int main()
 {
-    int A, B, max, min;
+    int  max, min;
 
     printf("entrez la nombre A = ");
     scanf("%d", &A);

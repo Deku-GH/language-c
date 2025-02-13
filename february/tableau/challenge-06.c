@@ -3,7 +3,7 @@
 int main()
 {
     int T[8], count;
-    int fp[8]={-1,-1,-1,-1,-1,-1,-1,-1};
+    int fp[8] = {-1, -1, -1, -1, -1, -1, -1, -1};
 
     for (int i = 0; i < 8; i++)
     {
@@ -20,22 +20,19 @@ int main()
             {
                 fp[j] = 0;
                 count++;
-               
             }
-             if (fp[i] != 0)
-                {
-                    fp[i] = count;
-                }
+            if (fp[i] != 0)
+            {
+                fp[i] = count;
+            }
         }
     }
     printf("le nombre non repetes \n ");
-     for (int i = 0; i < 8; i++)
-     {
-        if (fp[i]==2)
+    for (int i = 0; i < 8; i++)
+    {
+        if (fp[i] == 2)
         {
-            printf("%d ",T[i]);
+            printf("%d ", T[i]);
         }
-        
-     }
-     
+    }
 }

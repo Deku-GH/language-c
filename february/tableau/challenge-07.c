@@ -2,7 +2,7 @@
 
 int main()
 {
-/*فاصل الإعداد الزوجية وغير الزوجية.*/
+    /*فاصل الإعداد الزوجية وغير الزوجية.*/
     int T[100], P[100], I[100];
     int taille, count1, count2, i;
 
@@ -12,7 +12,7 @@ int main()
     for (i = 0; i < taille; i++)
     {
         printf("T[%d] =\n ", i + 1);
-    scanf("%d ",&T[i]);
+        scanf("%d ", &T[i]);
     }
     count1 = 0;
     count2 = 0;
