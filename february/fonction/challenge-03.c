@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+/*Un programme utilisant une fonction qui affiche le tableau de multiplication d’un entier positif x*/
 void multi(int x)
 {
     int i = 0;

@@ -1,60 +1,32 @@
 #include <stdio.h>
-int A, B;
-void signe()
-{
-    if (A >= 0 && B >= 0)
+
+int premie(int N){
+    int P = 1;
+    for (int  i = 2; i < N; i++)
     {
-        printf("les valeures sont de meme signe \n");
+        if (N%i==0)
+        {
+            P=0;
+            break;
+        }
     }
-    else
-        printf("les valeures ne sont pas meme signe \n");
-}
-
-int minimum()
-{
-    int min;
-    min = 0;
-    if (A < B)
-    {
-        min = A;
-    }
-    else if (A > B)
-    {
-        min = B;
-    }
-
-    return (min);
-}
-int maximum()
-{
-    int max;
-    max = 0;
-    if (A > B)
-    {
-        max = A;
-    }
-    else if (A < B)
-    {
-        max = B;
-    }
-
-    return (max);
-}
-
-int main()
-{
-    int  max, min;
-
-    printf("entrez la nombre A = ");
-    scanf("%d", &A);
-    printf("entrez la nombre b = ");
-    scanf("%d", &B);
-
-    signe(A,B);
-     max = maximum(A, B);
-     min = minimum(A, B);
-    printf("le maxmmum est : %d \n",max);
-
-    printf("le minimim est : %d ",min );
     
+return(P);
+
+}
+
+int main() {
+ int N,resulta;
+ printf("entez la nombre : ");
+ scanf("%d",&N);
+
+resulta = premie(N);
+ if (resulta == 1)
+ {
+    printf("la nombre est premie ");
+ }
+ else
+       
+    printf("la nombre n est pas premie ");
+
 }
