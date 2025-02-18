@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int cul(int N)
+int cul(long N)
 {
-    int count, P;
+    int count;
 
-    count =0 ;
+    count = 0;
     do
     {
         N = N / 10;
@@ -18,7 +18,7 @@ int cul(int N)
 int main()
 {
 
-    int N, m;
+    long N, m;
     printf("entez la nombre : ");
     scanf("%d", &N);
     m = cul(N);
